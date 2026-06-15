@@ -38,9 +38,9 @@ Exemplo de Entrada	Exemplo de Saída
 
 
 1-receber 3 valores int
-2-ordenar os valores na ordem recebida
+2-ordenar os valores na ordem recebida (criar um Array para ordenar os numeros em ordem recebida) int[] numeros = {num1, num2, num3}
 3-salvar a ordem crescente
-4-ordenar os valores em ordem crescente (criar um Array para ordenar os numeros em ordem crescente) int[] numeros = {num1, num2, num3}
+4-ordenar os valores em ordem crescente (criar um Array para ordenar os numeros em ordem crescente) int[] numeros2 = {num1, num2, num3} outra linha Arrays.sort(numeros);
 5-salvar a ordem recebida 
 6-imprimir a ordem crescente e a ordem recebida
 
