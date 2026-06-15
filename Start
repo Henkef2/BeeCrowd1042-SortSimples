@@ -1,1 +1,38 @@
+import java.io.IOException;
+import java.util.Scanner;
+import java.util.Locale;
+import java.util.Arrays;
 
+public class Main {
+    public static void main(String[] args) throws IOException {
+        // Garante o uso do ponto (.) como separador decimal
+        Locale.setDefault(Locale.US);
+        Scanner input = new Scanner(System.in);
+
+        int num1, num2, num3;
+		num1 = input.nextInt();
+		num2 = input.nextInt();
+		num3 = input.nextInt();
+
+        int[] numeros = {num1, num2, num3};
+
+        int[] numeros2 = {num1, num2, num3};
+
+        Arrays.sort(numeros2);
+
+         // Imprime a lista ordenada (um número por linha)
+        for (int n : numeros2) {
+            System.out.println(n);
+        }
+
+        System.out.println( );
+         
+        // Imprime a lista ordenada (um número por linha)
+        for (int n : numeros) {
+            System.out.println(n);
+        }
+
+       
+        input.close();
+    }
+}
